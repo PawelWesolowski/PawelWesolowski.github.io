@@ -1,0 +1,32 @@
+{
+  "name": "PawelWesolowski.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PawelWesolowski/PawelWesolowski.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PawelWesolowski/PawelWesolowski.github.io/issues"
+  },
+  "homepage": "https://github.com/PawelWesolowski/PawelWesolowski.github.io#readme",
+  "dependencies": {
+    "gatsby": "^2.19.43",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {}
+}
