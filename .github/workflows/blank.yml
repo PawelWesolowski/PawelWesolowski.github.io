@@ -26,4 +26,4 @@ jobs:
         npm i
         npm run deploy
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_KEY }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN_KEY }}
